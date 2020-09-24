@@ -1,26 +1,26 @@
-import React from 'react';
-import { connect } from 'react-redux';
-import { lift } from '../../actions/';
-import './button.scss';
+  import React from 'react';
+  import { connect } from 'react-redux';
+  import { lift } from '../../actions/';
+  import './button.scss';
 
-const Button = ({ value, lift, name }) => {
+  const Button = ({ value, lift, name }) => {
 
-  return (
-    <div className="button-container">
-      <div className="button-wrapper">
-        <div className="button-inner">
-          <button
-            onClick={(e) => lift(e)}
-            name={name}
-          >
-            {
-              value
-            }
-          </button>
+    return (
+      <div className="button-container">
+        <div className="button-wrapper">
+          <div className="button-inner">
+            <button
+              onClick={(e) => lift(e)}
+              name={name}
+            >
+              {
+                value
+              }
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-  )
-}
+    )
+  }
 
-export default connect(null, { lift })(Button);
+  export default connect(null, { lift })(Button);

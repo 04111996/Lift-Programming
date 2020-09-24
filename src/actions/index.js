@@ -1,5 +1,5 @@
-import { lift } from './buttonActions';
+  import { lift } from './buttonActions';
 
-export {
-  lift,
-}
+  export {
+    lift,
+  }

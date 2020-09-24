@@ -1,5 +1,5 @@
-import { ELEVATE } from './buttonTypes';
+  import { ELEVATE } from './buttonTypes';
 
-export {
-  ELEVATE
-}
+  export {
+    ELEVATE
+  }
