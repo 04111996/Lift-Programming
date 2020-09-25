@@ -11,12 +11,15 @@
       <div className="flex">
         <div className="main-space">
           <div className="btn-holder">
+         
             {
               liftData.map((lift, idx) => (
                 <Button key={idx} name={lift.name} value={lift.name} />
               ))
             }
           </div>
+        
+        
      
           <div className="ctn-holder">
             {
